@@ -1,0 +1,29 @@
+/*TABLET*/
+@media (max-width:1000px){
+
+  
+  /* TESTIMONIAL RESPONSIVE */
+
+  .main-3 .tittle {
+    font-size: 1em;
+  }
+
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width:670px){
+
+  .testimonial p {
+    color:#333;
+    font-size: 10px;
+  }
+
+  .stars{
+    color: #6ab04c;
+    margin-bottom: 20px;
+    margin-right: 5px;
+  }
+}
